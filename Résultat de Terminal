@@ -1,0 +1,398 @@
+Last login: Wed Feb  8 10:01:56 on console
+MacBook-Pro-de-Ben-7:~ macbook$ 
+MacBook-Pro-de-Ben-7:~ macbook$ pwd
+/Users/macbook
+MacBook-Pro-de-Ben-7:~ macbook$ ls
+Applications		Movies			Wine Files
+Desktop			Music			hs_err_pid1252.log
+Documents		Ouvrez-moi.pdf		hs_err_pid1730.log
+Downloads		Pictures		hs_err_pid1736.log
+Library			Public			hs_err_pid1847.log
+MacBook-Pro-de-Ben-7:~ macbook$ mkdir Developer
+MacBook-Pro-de-Ben-7:~ macbook$ ls
+Applications		Movies			hs_err_pid1252.log
+Desktop			Music			hs_err_pid1730.log
+Developer		Ouvrez-moi.pdf		hs_err_pid1736.log
+Documents		Pictures		hs_err_pid1847.log
+Downloads		Public
+Library			Wine Files
+MacBook-Pro-de-Ben-7:~ macbook$ cd De
+Desktop/   Developer/ 
+MacBook-Pro-de-Ben-7:~ macbook$ cd De
+Desktop/   Developer/ 
+MacBook-Pro-de-Ben-7:~ macbook$ cd Developer
+MacBook-Pro-de-Ben-7:Developer macbook$ ls
+MacBook-Pro-de-Ben-7:Developer macbook$ ls
+tp
+MacBook-Pro-de-Ben-7:Developer macbook$ cd tp
+MacBook-Pro-de-Ben-7:tp macbook$ npn install
+-bash: npn: command not found
+MacBook-Pro-de-Ben-7:tp macbook$ npm install
+
+> serialport@4.0.7 install /Users/macbook/Developer/tp/node_modules/serialport
+> node-pre-gyp install --fallback-to-build
+
+[serialport] Success: "/Users/macbook/Developer/tp/node_modules/serialport/build/Release/serialport.node" is installed via remote
+/Users/macbook/Developer/tp
+├─┬ request@2.79.0 
+│ ├── aws-sign2@0.6.0 
+│ ├── aws4@1.6.0 
+│ ├── caseless@0.11.0 
+│ ├─┬ combined-stream@1.0.5 
+│ │ └── delayed-stream@1.0.0 
+│ ├── extend@3.0.0 
+│ ├── forever-agent@0.6.1 
+│ ├─┬ form-data@2.1.2 
+│ │ └── asynckit@0.4.0 
+│ ├─┬ har-validator@2.0.6 
+│ │ ├─┬ chalk@1.1.3 
+│ │ │ ├── ansi-styles@2.2.1 
+│ │ │ ├── escape-string-regexp@1.0.5 
+│ │ │ ├─┬ has-ansi@2.0.0 
+│ │ │ │ └── ansi-regex@2.1.1 
+│ │ │ ├── strip-ansi@3.0.1 
+│ │ │ └── supports-color@2.0.0 
+│ │ ├─┬ is-my-json-valid@2.15.0 
+│ │ │ ├── generate-function@2.0.0 
+│ │ │ ├─┬ generate-object-property@1.2.0 
+│ │ │ │ └── is-property@1.0.2 
+│ │ │ ├── jsonpointer@4.0.1 
+│ │ │ └── xtend@4.0.1 
+│ │ └─┬ pinkie-promise@2.0.1 
+│ │   └── pinkie@2.0.4 
+│ ├─┬ hawk@3.1.3 
+│ │ ├── boom@2.10.1 
+│ │ ├── cryptiles@2.0.5 
+│ │ ├── hoek@2.16.3 
+│ │ └── sntp@1.0.9 
+│ ├─┬ http-signature@1.1.1 
+│ │ ├── assert-plus@0.2.0 
+│ │ ├─┬ jsprim@1.3.1 
+│ │ │ ├── extsprintf@1.0.2 
+│ │ │ ├── json-schema@0.2.3 
+│ │ │ └── verror@1.3.6 
+│ │ └─┬ sshpk@1.10.2 
+│ │   ├── asn1@0.2.3 
+│ │   ├── assert-plus@1.0.0 
+│ │   ├── bcrypt-pbkdf@1.0.1 
+│ │   ├─┬ dashdash@1.14.1 
+│ │   │ └── assert-plus@1.0.0 
+│ │   ├── ecc-jsbn@0.1.1 
+│ │   ├─┬ getpass@0.1.6 
+│ │   │ └── assert-plus@1.0.0 
+│ │   ├── jodid25519@1.0.2 
+│ │   ├── jsbn@0.1.0 
+│ │   └── tweetnacl@0.14.5 
+│ ├── is-typedarray@1.0.0 
+│ ├── isstream@0.1.2 
+│ ├── json-stringify-safe@5.0.1 
+│ ├─┬ mime-types@2.1.14 
+│ │ └── mime-db@1.26.0 
+│ ├── oauth-sign@0.8.2 
+│ ├── qs@6.3.0 
+│ ├── stringstream@0.0.5 
+│ ├─┬ tough-cookie@2.3.2 
+│ │ └── punycode@1.4.1 
+│ ├── tunnel-agent@0.4.3 
+│ └── uuid@3.0.1 
+└─┬ serialport@4.0.7 
+  ├── bindings@1.2.1 
+  ├─┬ commander@2.9.0 
+  │ └── graceful-readlink@1.0.1 
+  ├─┬ debug@2.6.0 
+  │ └── ms@0.7.2 
+  ├─┬ lie@3.1.1 
+  │ └── immediate@3.0.6 
+  ├── nan@2.5.1 
+  ├─┬ node-pre-gyp@0.6.32 
+  │ ├─┬ mkdirp@0.5.1 
+  │ │ └── minimist@0.0.8 
+  │ ├─┬ nopt@3.0.6 
+  │ │ └── abbrev@1.0.9 
+  │ ├─┬ npmlog@4.0.1 
+  │ │ ├─┬ are-we-there-yet@1.1.2 
+  │ │ │ ├── delegates@1.0.0 
+  │ │ │ └─┬ readable-stream@2.2.2 
+  │ │ │   ├── buffer-shims@1.0.0 
+  │ │ │   ├── core-util-is@1.0.2 
+  │ │ │   ├── inherits@2.0.3 
+  │ │ │   ├── isarray@1.0.0 
+  │ │ │   ├── process-nextick-args@1.0.7 
+  │ │ │   ├── string_decoder@0.10.31 
+  │ │ │   └── util-deprecate@1.0.2 
+  │ │ ├── console-control-strings@1.1.0 
+  │ │ ├─┬ gauge@2.7.2 
+  │ │ │ ├── aproba@1.0.4 
+  │ │ │ ├── has-unicode@2.0.1 
+  │ │ │ ├── object-assign@4.1.0 
+  │ │ │ ├── signal-exit@3.0.2 
+  │ │ │ ├─┬ string-width@1.0.2 
+  │ │ │ │ ├── code-point-at@1.1.0 
+  │ │ │ │ └─┬ is-fullwidth-code-point@1.0.0 
+  │ │ │ │   └── number-is-nan@1.0.1 
+  │ │ │ ├─┬ strip-ansi@3.0.1 
+  │ │ │ │ └── ansi-regex@2.0.0 
+  │ │ │ ├── supports-color@0.2.0 
+  │ │ │ └── wide-align@1.1.0 
+  │ │ └── set-blocking@2.0.0 
+  │ ├─┬ rc@1.1.6 
+  │ │ ├── deep-extend@0.4.1 
+  │ │ ├── ini@1.3.4 
+  │ │ ├── minimist@1.2.0 
+  │ │ └── strip-json-comments@1.0.4 
+  │ ├─┬ request@2.79.0 
+  │ │ ├── aws-sign2@0.6.0 
+  │ │ ├── aws4@1.5.0 
+  │ │ ├── caseless@0.11.0 
+  │ │ ├─┬ combined-stream@1.0.5 
+  │ │ │ └── delayed-stream@1.0.0 
+  │ │ ├── extend@3.0.0 
+  │ │ ├── forever-agent@0.6.1 
+  │ │ ├─┬ form-data@2.1.2 
+  │ │ │ └── asynckit@0.4.0 
+  │ │ ├─┬ har-validator@2.0.6 
+  │ │ │ ├─┬ chalk@1.1.3 
+  │ │ │ │ ├── ansi-styles@2.2.1 
+  │ │ │ │ ├── escape-string-regexp@1.0.5 
+  │ │ │ │ ├─┬ has-ansi@2.0.0 
+  │ │ │ │ │ └── ansi-regex@2.0.0 
+  │ │ │ │ ├─┬ strip-ansi@3.0.1 
+  │ │ │ │ │ └── ansi-regex@2.0.0 
+  │ │ │ │ └── supports-color@2.0.0 
+  │ │ │ ├─┬ is-my-json-valid@2.15.0 
+  │ │ │ │ ├── generate-function@2.0.0 
+  │ │ │ │ ├─┬ generate-object-property@1.2.0 
+  │ │ │ │ │ └── is-property@1.0.2 
+  │ │ │ │ ├── jsonpointer@4.0.0 
+  │ │ │ │ └── xtend@4.0.1 
+  │ │ │ └─┬ pinkie-promise@2.0.1 
+  │ │ │   └── pinkie@2.0.4 
+  │ │ ├─┬ hawk@3.1.3 
+  │ │ │ ├── boom@2.10.1 
+  │ │ │ ├── cryptiles@2.0.5 
+  │ │ │ ├── hoek@2.16.3 
+  │ │ │ └── sntp@1.0.9 
+  │ │ ├─┬ http-signature@1.1.1 
+  │ │ │ ├── assert-plus@0.2.0 
+  │ │ │ ├─┬ jsprim@1.3.1 
+  │ │ │ │ ├── extsprintf@1.0.2 
+  │ │ │ │ ├── json-schema@0.2.3 
+  │ │ │ │ └── verror@1.3.6 
+  │ │ │ └─┬ sshpk@1.10.1 
+  │ │ │   ├── asn1@0.2.3 
+  │ │ │   ├── assert-plus@1.0.0 
+  │ │ │   ├── bcrypt-pbkdf@1.0.0 
+  │ │ │   ├── dashdash@1.14.1 
+  │ │ │   ├── ecc-jsbn@0.1.1 
+  │ │ │   ├── getpass@0.1.6 
+  │ │ │   ├── jodid25519@1.0.2 
+  │ │ │   ├── jsbn@0.1.0 
+  │ │ │   └── tweetnacl@0.14.4 
+  │ │ ├── is-typedarray@1.0.0 
+  │ │ ├── isstream@0.1.2 
+  │ │ ├── json-stringify-safe@5.0.1 
+  │ │ ├─┬ mime-types@2.1.13 
+  │ │ │ └── mime-db@1.25.0 
+  │ │ ├── oauth-sign@0.8.2 
+  │ │ ├── qs@6.3.0 
+  │ │ ├── stringstream@0.0.5 
+  │ │ ├─┬ tough-cookie@2.3.2 
+  │ │ │ └── punycode@1.4.1 
+  │ │ ├── tunnel-agent@0.4.3 
+  │ │ └── uuid@3.0.1 
+  │ ├─┬ rimraf@2.5.4 
+  │ │ └─┬ glob@7.1.1 
+  │ │   ├── fs.realpath@1.0.0 
+  │ │   ├─┬ inflight@1.0.6 
+  │ │   │ └── wrappy@1.0.2 
+  │ │   ├── inherits@2.0.3 
+  │ │   ├─┬ minimatch@3.0.3 
+  │ │   │ └─┬ brace-expansion@1.1.6 
+  │ │   │   ├── balanced-match@0.4.2 
+  │ │   │   └── concat-map@0.0.1 
+  │ │   ├─┬ once@1.4.0 
+  │ │   │ └── wrappy@1.0.2 
+  │ │   └── path-is-absolute@1.0.1 
+  │ ├── semver@5.3.0 
+  │ ├─┬ tar@2.2.1 
+  │ │ ├── block-stream@0.0.9 
+  │ │ ├─┬ fstream@1.0.10 
+  │ │ │ └── graceful-fs@4.1.11 
+  │ │ └── inherits@2.0.3 
+  │ └─┬ tar-pack@3.3.0 
+  │   ├─┬ debug@2.2.0 
+  │   │ └── ms@0.7.1 
+  │   ├─┬ fstream@1.0.10 
+  │   │ ├── graceful-fs@4.1.11 
+  │   │ └── inherits@2.0.3 
+  │   ├─┬ fstream-ignore@1.0.5 
+  │   │ ├── inherits@2.0.3 
+  │   │ └─┬ minimatch@3.0.3 
+  │   │   └─┬ brace-expansion@1.1.6 
+  │   │     ├── balanced-match@0.4.2 
+  │   │     └── concat-map@0.0.1 
+  │   ├─┬ once@1.3.3 
+  │   │ └── wrappy@1.0.2 
+  │   ├─┬ readable-stream@2.1.5 
+  │   │ ├── buffer-shims@1.0.0 
+  │   │ ├── core-util-is@1.0.2 
+  │   │ ├── inherits@2.0.3 
+  │   │ ├── isarray@1.0.0 
+  │   │ ├── process-nextick-args@1.0.7 
+  │   │ ├── string_decoder@0.10.31 
+  │   │ └── util-deprecate@1.0.2 
+  │   └── uid-number@0.0.6 
+  └─┬ object.assign@4.0.4 
+    ├─┬ define-properties@1.1.2 
+    │ └── foreach@2.0.5 
+    ├── function-bind@1.1.0 
+    └── object-keys@1.0.11 
+
+npm WARN tp No description
+npm WARN tp No repository field.
+npm WARN tp No license field.
+MacBook-Pro-de-Ben-7:tp macbook$ ls
+node_modules	package.json	server.js
+MacBook-Pro-de-Ben-7:tp macbook$ node server.js
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Error: No such file or directory, cannot open /dev/cu.usbmodemFD121
+    at Error (native)
+MacBook-Pro-de-Ben-7:tp macbook$ server.js
+-bash: server.js: command not found
+MacBook-Pro-de-Ben-7:tp macbook$ ls
+node_modules	package.json	server.js
+MacBook-Pro-de-Ben-7:tp macbook$ node server.js
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Error: No such file or directory, cannot open /dev/cu.usbmodemFD121
+    at Error (native)
+MacBook-Pro-de-Ben-7:tp macbook$ node server.js
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Error: No such file or directory, cannot open /dev/cu.usbmodemFD121
+    at Error (native)
+MacBook-Pro-de-Ben-7:tp macbook$ node server.js
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Error: No such file or directory, cannot open /dev/cu.usbmodemFD121
+    at Error (native)
+MacBook-Pro-de-Ben-7:tp macbook$ node server.js
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Error: No such file or directory, cannot open /dev/cu.usbmodemFD121
+    at Error (native)
+MacBook-Pro-de-Ben-7:tp macbook$ node server.js
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Error: No such file or directory, cannot open /dev/cu.usbmodemFD121
+    at Error (native)
+MacBook-Pro-de-Ben-7:tp macbook$ node server.js
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Error: No such file or directory, cannot open /dev/cu.usbmodemFD121
+    at Error (native)
+MacBook-Pro-de-Ben-7:tp macbook$ node server.js
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Error: No such file or directory, cannot open /dev/cu.usbmodemFD121
+    at Error (native)
+MacBook-Pro-de-Ben-7:tp macbook$ ls
+node_modules	package.json	server.js
+MacBook-Pro-de-Ben-7:tp macbook$ ls
+node_modules	package.json	server.js
+MacBook-Pro-de-Ben-7:tp macbook$ node server.js
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Error: No such file or directory, cannot open /dev/cu.usbmodemFD121
+    at Error (native)
+MacBook-Pro-de-Ben-7:tp macbook$ pzd
+-bash: pzd: command not found
+MacBook-Pro-de-Ben-7:tp macbook$ pwd
+/Users/macbook/Developer/tp
+MacBook-Pro-de-Ben-7:tp macbook$ node server.js
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Error: No such file or directory, cannot open /dev/cu.usbmodemFD121
+    at Error (native)
+MacBook-Pro-de-Ben-7:tp macbook$ node server.js
+0.939000
+0.939000
+0.939000
+0.939100
+changed up!
+/Users/macbook/Developer/tp/server.js:29
+				port.write('u')
+				    ^
+
+TypeError: Cannot read property 'write' of undefined
+    at Request._callback (/Users/macbook/Developer/tp/server.js:29:9)
+    at Request.self.callback (/Users/macbook/Developer/tp/node_modules/request/request.js:186:22)
+    at emitTwo (events.js:106:13)
+    at Request.emit (events.js:191:7)
+    at Request.<anonymous> (/Users/macbook/Developer/tp/node_modules/request/request.js:1081:10)
+    at emitOne (events.js:96:13)
+    at Request.emit (events.js:188:7)
+    at IncomingMessage.<anonymous> (/Users/macbook/Developer/tp/node_modules/request/request.js:1001:12)
+    at IncomingMessage.g (events.js:291:16)
+    at emitNone (events.js:91:20)
+MacBook-Pro-de-Ben-7:tp macbook$ node server.js
+0.939100
+0.939000
+changed down!
+0.939000
+0.939100
+changed up!
+0.939100
+0.939100
+0.939100
+0.939100
+0.939100
+0.939100
+0.939100
+0.939100
+0.939100
+0.939100
+0.939100
+0.939100
+0.939100
+0.939100
+0.939100
+^R
+0.939100
+0.939100
+
+0.939100
+^R
+
+0.939100
+0.939100
+0.939100
+0.939100
+0.939100
+0.939100
+0.939100
+0.939100
+0.939100
+0.939100
+
