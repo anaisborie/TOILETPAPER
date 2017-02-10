@@ -23,9 +23,8 @@ setInterval(function(){
 		}
 
   //difference = parseInt(((previousRate - found.price)*10000))
-    difference = Math.abs(Math.round((previousRate - found.price)*10000))
-    //console.log((previousRate - found.price)*10000)
-    console.log(difference)
+    if (found != undefined) difference = Math.abs(Math.round((previousRate - found.price)*10000))
+    // console.log((previousRate - found.price)*10000)
 
 		if (found === undefined) console.log('WTF?')
 		else {
